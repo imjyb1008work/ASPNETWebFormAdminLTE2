@@ -8,7 +8,7 @@
 
 	<div class="row">
 		<div class="col-md-3">
-			<a href="compose.html" class="btn btn-primary btn-block margin-bottom">Compose</a>
+			<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Pages/Mailbox/Compose.aspx" CssClass="btn btn-primary btn-block margin-bottom">Compose</asp:HyperLink>
 
 			<div class="box box-solid">
 				<div class="box-header with-border">
@@ -100,7 +100,9 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink2" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink>
+									</td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"></td>
@@ -110,7 +112,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink3" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -120,7 +123,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink4" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -130,7 +134,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink5" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"></td>
@@ -140,7 +145,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink6" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -150,7 +156,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink7" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -160,7 +167,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink8" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -170,7 +178,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink9" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"></td>
@@ -180,7 +189,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink10" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"></td>
@@ -190,7 +200,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink11" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"></td>
@@ -200,7 +211,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink12" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -210,7 +222,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink13" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"></td>
@@ -220,7 +233,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink14" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -230,7 +244,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink15" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -240,7 +255,8 @@
 									<td>
 										<input type="checkbox"></td>
 									<td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-									<td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
+									<td class="mailbox-name">
+										<asp:HyperLink ID="HyperLink16" NavigateUrl="~/Pages/Mailbox/ReadMail.aspx" runat="server">Alexander Pierce</asp:HyperLink></td>
 									<td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
 									</td>
 									<td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>

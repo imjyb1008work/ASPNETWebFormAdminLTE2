@@ -10,8 +10,8 @@
 
 	<div class="row">
 		<div class="col-md-3">
-			<a href="mailbox.html" class="btn btn-primary btn-block margin-bottom">Back to Inbox</a>
-
+			<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Pages/Mailbox/Mailbox.aspx" CssClass="btn btn-primary btn-block margin-bottom" >Back to Inbox</asp:HyperLink>
+			
 			<div class="box box-solid">
 				<div class="box-header with-border">
 					<h3 class="box-title">Folders</h3>

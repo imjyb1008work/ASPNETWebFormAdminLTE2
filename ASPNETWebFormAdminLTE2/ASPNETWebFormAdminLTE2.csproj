@@ -6380,6 +6380,7 @@
     <Content Include="Pages\Layout\TopNav.aspx" />
     <Content Include="Pages\Mailbox\Compose.aspx" />
     <Content Include="Pages\Mailbox\Mailbox.aspx" />
+    <Content Include="Pages\Mailbox\ReadMail.aspx" />
     <Content Include="Pages\Tables\Data.aspx" />
     <Content Include="Pages\Tables\Simple.aspx" />
     <Content Include="Pages\UI\Buttons.aspx" />
@@ -6735,6 +6736,13 @@
     </Compile>
     <Compile Include="Pages\Mailbox\Mailbox.aspx.designer.cs">
       <DependentUpon>Mailbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Mailbox\ReadMail.aspx.cs">
+      <DependentUpon>ReadMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Mailbox\ReadMail.aspx.designer.cs">
+      <DependentUpon>ReadMail.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Tables\Data.aspx.cs">
       <DependentUpon>Data.aspx</DependentUpon>
