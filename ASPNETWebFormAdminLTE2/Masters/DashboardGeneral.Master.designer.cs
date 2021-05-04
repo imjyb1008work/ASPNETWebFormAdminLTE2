@@ -33,6 +33,15 @@ namespace ASPNETWebFormAdminLTE2.Masters
 		protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
 		/// <summary>
+		/// body 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl body;
+
+		/// <summary>
 		/// form1 控制項。
 		/// </summary>
 		/// <remarks>
@@ -58,6 +67,33 @@ namespace ASPNETWebFormAdminLTE2.Masters
 		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
 		/// </remarks>
 		protected global::ASPNETWebFormAdminLTE2.WebUserControls.Dashboard.MainSidebar MainSidebar;
+
+		/// <summary>
+		/// contentWrapper 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl contentWrapper;
+
+		/// <summary>
+		/// contentHeader 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl contentHeader;
+
+		/// <summary>
+		/// content 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl content;
 
 		/// <summary>
 		/// DashboardGeneralScript 控制項。

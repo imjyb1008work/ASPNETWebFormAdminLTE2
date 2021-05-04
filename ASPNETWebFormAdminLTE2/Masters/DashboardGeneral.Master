@@ -4,22 +4,22 @@
 
 <html>
 <head runat="server">
-    <title>AdminLTE 2 | Dashboard</title>
-	<AdminLTE:DashboardGeneralHead runat="server" id="DashboardGeneralHead" />
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+	<title>AdminLTE 2 | Dashboard</title>
+	<AdminLTE:DashboardGeneralHead runat="server" ID="DashboardGeneralHead" />
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body runat="server" id="body" class="hold-transition skin-blue sidebar-mini">
 	<form id="form1" runat="server">
 
-		<div class="wrapper">
+		<div class="wrapper" runat="server">
 
 			<AdminLTE:MainHeader runat="server" ID="MainHeader" />
 
 			<AdminLTE:MainSidebar runat="server" ID="MainSidebar" />
 
-			<div class="content-wrapper">
-				<section class="content-header">
+			<div runat="server" id="contentWrapper" class="content-wrapper">
+				<section runat="server" id="contentHeader" class="content-header">
 					<h1>Dashboard<small>Control panel</small>
 					</h1>
 					<ol class="breadcrumb">
@@ -27,21 +27,18 @@
 						<li class="active">Dashboard</li>
 					</ol>
 				</section>
-				<section class="content">
+				<section runat="server" id="content" class="content">
 					<AdminLTE:DashboardGeneralScript runat="server" ID="DashboardGeneralScript" />
 					<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
 					</asp:ContentPlaceHolder>
 				</section>
 			</div>
 
-			<AdminLTE:MainFooter runat="server" id="MainFooter" />
+			<AdminLTE:MainFooter runat="server" ID="MainFooter" />
 
-			<AdminLTE:ControlSidebar runat="server" id="ControlSidebar" />
+			<AdminLTE:ControlSidebar runat="server" ID="ControlSidebar" />
 
 		</div>
-
-		
-
 	</form>
 </body>
 </html>

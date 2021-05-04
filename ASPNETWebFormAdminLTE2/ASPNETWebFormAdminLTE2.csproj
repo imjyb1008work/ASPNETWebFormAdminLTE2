@@ -6371,6 +6371,8 @@
     <Content Include="Pages\Charts\Flot.aspx" />
     <Content Include="Pages\Charts\InlineCharts.aspx" />
     <Content Include="Pages\Charts\Morris.aspx" />
+    <Content Include="Pages\Examples\Invoice.aspx" />
+    <Content Include="Pages\Examples\InvoicePrint.aspx" />
     <Content Include="Pages\Forms\Advanced.aspx" />
     <Content Include="Pages\Forms\Editors.aspx" />
     <Content Include="Pages\Forms\General.aspx" />
@@ -6673,6 +6675,20 @@
     </Compile>
     <Compile Include="Pages\Charts\Morris.aspx.designer.cs">
       <DependentUpon>Morris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Examples\Invoice.aspx.cs">
+      <DependentUpon>Invoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Examples\Invoice.aspx.designer.cs">
+      <DependentUpon>Invoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Examples\InvoicePrint.aspx.cs">
+      <DependentUpon>InvoicePrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Examples\InvoicePrint.aspx.designer.cs">
+      <DependentUpon>InvoicePrint.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Forms\Advanced.aspx.cs">
       <DependentUpon>Advanced.aspx</DependentUpon>
