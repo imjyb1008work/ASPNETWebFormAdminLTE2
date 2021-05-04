@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TopNav.master.cs" Inherits="ASPNETWebFormAdminLTE2.Masters.TopNav" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title>AdminLTE 2 | Top Navigation</title>
+	<AdminLTE:DashboardGeneralHead runat="server" id="DashboardGeneralHead" />
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition skin-blue layout-top-nav">
+
+	<form id="form1" runat="server">
+
+		<AdminLTE:TopNavigationMainHeader runat="server" ID="TopNavigationMainHeader" />
+
+		<div class="wrapper">
+
+			<div class="content-wrapper">
+				<div class="container">
+					<section class="content-header">
+						<h1>Top Navigation<small>Example 2.0</small>
+						</h1>
+						<ol class="breadcrumb">
+							<li><a href="#"><i class="fa fa-dashboard"></i>Home</a></li>
+							<li>Layout </li>
+							<li class="active">Top Navigation</li>
+						</ol>
+					</section>
+					<section class="content">
+						<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+						</asp:ContentPlaceHolder>
+					</section>
+				</div>
+			</div>
+
+			<AdminLTE:TopNavigationMainFooter runat="server" ID="TopNavigationMainFooter" />
+
+		</div>
+
+		<AdminLTE:TopNavigationScript runat="server" ID="TopNavigationScript" />
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Starter.master.cs" Inherits="ASPNETWebFormAdminLTE2.Masters.Starter" %>
+
+<%@ Register Src="~/WebUserControls/StarterControlSidebar.ascx" TagPrefix="AdminLTE" TagName="StarterControlSidebar" %>
+
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+	<title></title>
+	<AdminLTE:StarterHead runat="server" ID="StarterHead" />
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+	<form id="form1" runat="server">
+		<div class="wrapper">
+
+			<AdminLTE:StarterMainHeader runat="server" ID="StarterMainHeader" />
+
+			<AdminLTE:StarterMainSidebar runat="server" ID="StarterMainSidebar" />
+
+			<div class="content-wrapper">
+
+				<section class="content-header">
+					<h1>Page Header<small>Optional description</small>
+					</h1>
+					<ol class="breadcrumb">
+						<li><a href="#"><i class="fa fa-dashboard"></i>Level</a></li>
+						<li class="active">Here</li>
+					</ol>
+				</section>
+
+				<section class="content container-fluid">
+
+					<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+					</asp:ContentPlaceHolder>
+
+				</section>
+
+			</div>
+
+			<AdminLTE:StarterControlSidebar runat="server" ID="StarterControlSidebar" />
+
+			<AdminLTE:MainFooter runat="server" ID="MainFooter" />
+
+		</div>
+
+		<AdminLTE:StarterScript runat="server" ID="StarterScript" />
+
+	</form>
+</body>
+</html>

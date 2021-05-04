@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Fixed.master.cs" Inherits="ASPNETWebFormAdminLTE2.Masters.Fixed" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title>AdminLTE 2 | Fixed Layout</title>
+	<AdminLTE:DashboardGeneralHead runat="server" id="DashboardGeneralHead" />
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition skin-blue fixed sidebar-mini">
+	<form id="form1" runat="server">
+
+		<div class="wrapper">
+
+			<AdminLTE:MainHeader runat="server" ID="MainHeader" />
+
+			<AdminLTE:MainSidebar runat="server" ID="MainSidebar" />
+
+			<div class="content-wrapper">
+				<section class="content-header">
+					<h1>Fixed Layout
+						<small>Blank example to the fixed layout</small>
+					</h1>
+					<ol class="breadcrumb">
+						<li><a href="#"><i class="fa fa-dashboard"></i>Home</a></li>
+						<li><a href="#">Layout</a></li>
+						<li>Fixed</li>
+					</ol>
+				</section>
+				<section class="content">
+					<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+					</asp:ContentPlaceHolder>
+				</section>
+			</div>
+
+			<AdminLTE:MainFooter runat="server" ID="MainFooter" />
+
+			<AdminLTE:ControlSidebar runat="server" ID="ControlSidebar" />
+
+		</div>
+
+		<AdminLTE:StarterScript runat="server" ID="StarterScript" />
+
+	</form>
+</body>
+</html>
