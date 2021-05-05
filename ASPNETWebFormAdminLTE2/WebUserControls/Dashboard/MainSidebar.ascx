@@ -165,7 +165,9 @@
 				<asp:HyperLink ID="MailboxHyperLink" runat="server" NavigateUrl="~/Pages/Mailbox/Mailbox.aspx">
 					<i class="fa fa-envelope"></i><span>Mailbox</span>
 					<span class="pull-right-container">
-						<i class="fa fa-angle-left pull-right"></i>
+						<small class="label pull-right bg-yellow">12</small>
+						<small class="label pull-right bg-green">16</small>
+						<small class="label pull-right bg-red">5</small>
 					</span>
 				</asp:HyperLink>
 				<ul class="treeview-menu">
@@ -182,7 +184,7 @@
 					</li>
 				</ul>
 			</li>
-			<li class="treeview">
+			<li class="treeview" runat="server" id="ExamplesTreeview">
 				<a href="#">
 					<i class="fa fa-folder"></i><span>Examples</span>
 					<span class="pull-right-container">
@@ -190,15 +192,24 @@
 					</span>
 				</a>
 				<ul class="treeview-menu">
-					<li><a href="pages/examples/invoice.html"><i class="fa fa-circle-o"></i>Invoice</a></li>
-					<li><a href="pages/examples/profile.html"><i class="fa fa-circle-o"></i>Profile</a></li>
-					<li><a href="pages/examples/login.html"><i class="fa fa-circle-o"></i>Login</a></li>
-					<li><a href="pages/examples/register.html"><i class="fa fa-circle-o"></i>Register</a></li>
-					<li><a href="pages/examples/lockscreen.html"><i class="fa fa-circle-o"></i>Lockscreen</a></li>
-					<li><a href="pages/examples/404.html"><i class="fa fa-circle-o"></i>404 Error</a></li>
-					<li><a href="pages/examples/500.html"><i class="fa fa-circle-o"></i>500 Error</a></li>
-					<li><a href="pages/examples/blank.html"><i class="fa fa-circle-o"></i>Blank Page</a></li>
-					<li><a href="pages/examples/pace.html"><i class="fa fa-circle-o"></i>Pace Page</a></li>
+					<li runat="server" id="Invoiceli">
+						<asp:HyperLink runat="server" NavigateUrl="~/Pages/Examples/Invoice.aspx"><i class="fa fa-circle-o"></i>Invoice</asp:HyperLink></li>
+					<li runat="server" id="Profileli">
+						<asp:HyperLink runat="server" NavigateUrl="~/Pages/Examples/Profile.aspx"><i class="fa fa-circle-o"></i>Profile</asp:HyperLink></li>
+					<li runat="server" id="Loginli">
+						<asp:HyperLink runat="server" NavigateUrl="~/Pages/Examples/Login.aspx"><i class="fa fa-circle-o"></i>Login</asp:HyperLink></li>
+					<li runat="server" id="Registerli">
+						<asp:HyperLink runat="server" NavigateUrl="~/Pages/Examples/Register.aspx"><i class="fa fa-circle-o"></i>Register</asp:HyperLink></li>
+					<li runat="server" id="Lockscreenli">
+						<asp:HyperLink runat="server" NavigateUrl="~/Pages/Examples/Lockscreen.aspx"><i class="fa fa-circle-o"></i>Lockscreen</asp:HyperLink></li>
+					<li runat="server" id="NotFoundli">
+						<asp:HyperLink runat="server" NavigateUrl="~/Pages/Examples/NotFound.aspx"><i class="fa fa-circle-o"></i>404 Error</asp:HyperLink></li>
+					<li runat="server" id="InternalServerErrorli">
+						<asp:HyperLink runat="server" NavigateUrl="~/Pages/Examples/InternalServerError.aspx"><i class="fa fa-circle-o"></i>500 Error</asp:HyperLink></li>
+					<li runat="server" id="BlankPageli">
+						<asp:HyperLink runat="server" NavigateUrl="~/Pages/Examples/Blank.aspx"><i class="fa fa-circle-o"></i>Blank Page</asp:HyperLink></li>
+					<li runat="server" id="PacePageli">
+						<asp:HyperLink runat="server" NavigateUrl="~/Pages/Examples/Pace.aspx"><i class="fa fa-circle-o"></i>Pace Page</asp:HyperLink></li>
 				</ul>
 			</li>
 			<li class="treeview">

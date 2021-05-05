@@ -391,5 +391,95 @@ namespace ASPNETWebFormAdminLTE2.WebUserControls.Dashboard
 		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
 		/// </remarks>
 		protected global::System.Web.UI.WebControls.HyperLink ReadMailHyperLink;
+
+		/// <summary>
+		/// ExamplesTreeview 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl ExamplesTreeview;
+
+		/// <summary>
+		/// Invoiceli 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl Invoiceli;
+
+		/// <summary>
+		/// Profileli 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl Profileli;
+
+		/// <summary>
+		/// Loginli 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl Loginli;
+
+		/// <summary>
+		/// Registerli 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl Registerli;
+
+		/// <summary>
+		/// Lockscreenli 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl Lockscreenli;
+
+		/// <summary>
+		/// NotFoundli 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl NotFoundli;
+
+		/// <summary>
+		/// InternalServerErrorli 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl InternalServerErrorli;
+
+		/// <summary>
+		/// BlankPageli 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl BlankPageli;
+
+		/// <summary>
+		/// PacePageli 控制項。
+		/// </summary>
+		/// <remarks>
+		/// 自動產生的欄位。
+		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlGenericControl PacePageli;
 	}
 }

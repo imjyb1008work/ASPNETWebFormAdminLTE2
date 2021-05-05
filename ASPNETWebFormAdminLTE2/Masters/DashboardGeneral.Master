@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-	<title>AdminLTE 2 | Dashboard</title>
+	<title>AdminLTE 2 | <%= Page.Title %></title>
 	<AdminLTE:DashboardGeneralHead runat="server" ID="DashboardGeneralHead" />
 	<asp:ContentPlaceHolder ID="head" runat="server">
 	</asp:ContentPlaceHolder>
@@ -20,7 +20,7 @@
 
 			<div runat="server" id="contentWrapper" class="content-wrapper">
 				<section runat="server" id="contentHeader" class="content-header">
-					<h1>Dashboard<small>Control panel</small>
+					<h1><%= Page.Title %><small>Control panel</small>
 					</h1>
 					<ol class="breadcrumb">
 						<li><a href="#"><i class="fa fa-dashboard"></i>Home</a></li>

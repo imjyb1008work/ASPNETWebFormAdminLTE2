@@ -6371,8 +6371,16 @@
     <Content Include="Pages\Charts\Flot.aspx" />
     <Content Include="Pages\Charts\InlineCharts.aspx" />
     <Content Include="Pages\Charts\Morris.aspx" />
+    <Content Include="Pages\Examples\Blank.aspx" />
+    <Content Include="Pages\Examples\InternalServerError.aspx" />
     <Content Include="Pages\Examples\Invoice.aspx" />
     <Content Include="Pages\Examples\InvoicePrint.aspx" />
+    <Content Include="Pages\Examples\Lockscreen.aspx" />
+    <Content Include="Pages\Examples\Login.aspx" />
+    <Content Include="Pages\Examples\NotFound.aspx" />
+    <Content Include="Pages\Examples\Pace.aspx" />
+    <Content Include="Pages\Examples\Profile.aspx" />
+    <Content Include="Pages\Examples\Register.aspx" />
     <Content Include="Pages\Forms\Advanced.aspx" />
     <Content Include="Pages\Forms\Editors.aspx" />
     <Content Include="Pages\Forms\General.aspx" />
@@ -6571,6 +6579,7 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ExamplePageService.cs" />
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -6676,6 +6685,20 @@
     <Compile Include="Pages\Charts\Morris.aspx.designer.cs">
       <DependentUpon>Morris.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Examples\Blank.aspx.cs">
+      <DependentUpon>Blank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Examples\Blank.aspx.designer.cs">
+      <DependentUpon>Blank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Examples\InternalServerError.aspx.cs">
+      <DependentUpon>InternalServerError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Examples\InternalServerError.aspx.designer.cs">
+      <DependentUpon>InternalServerError.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Examples\Invoice.aspx.cs">
       <DependentUpon>Invoice.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -6689,6 +6712,48 @@
     </Compile>
     <Compile Include="Pages\Examples\InvoicePrint.aspx.designer.cs">
       <DependentUpon>InvoicePrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Examples\Lockscreen.aspx.cs">
+      <DependentUpon>Lockscreen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Examples\Lockscreen.aspx.designer.cs">
+      <DependentUpon>Lockscreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Examples\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Examples\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Examples\NotFound.aspx.cs">
+      <DependentUpon>NotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Examples\NotFound.aspx.designer.cs">
+      <DependentUpon>NotFound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Examples\Pace.aspx.cs">
+      <DependentUpon>Pace.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Examples\Pace.aspx.designer.cs">
+      <DependentUpon>Pace.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Examples\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Examples\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Examples\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Examples\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Forms\Advanced.aspx.cs">
       <DependentUpon>Advanced.aspx</DependentUpon>
