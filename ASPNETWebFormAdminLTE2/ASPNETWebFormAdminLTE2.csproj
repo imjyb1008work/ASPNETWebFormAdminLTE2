@@ -6650,6 +6650,9 @@
     <Compile Include="Masters\TopNav.Master.designer.cs">
       <DependentUpon>TopNav.Master</DependentUpon>
     </Compile>
+    <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\TreeView.cs" />
+    <Compile Include="Models\TreeViewMenu.cs" />
     <Compile Include="Pages\Calendar.aspx.cs">
       <DependentUpon>Calendar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -7525,7 +7528,9 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
