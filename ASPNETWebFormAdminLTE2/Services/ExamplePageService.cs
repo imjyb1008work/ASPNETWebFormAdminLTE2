@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
 
-namespace ASPNETWebFormAdminLTE2
+namespace ASPNETWebFormAdminLTE2.Services
 {
 	public class ExamplePageService
 	{

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masters/DashboardGeneral.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="ASPNETWebFormAdminLTE2.Pages.Examples.Register" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masters/DashboardGeneral.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="ASPNETWebFormAdminLTE2.ASPNETWebFormAdminLTE2.Services.Pages.Examples.Register" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 	<!-- iCheck -->

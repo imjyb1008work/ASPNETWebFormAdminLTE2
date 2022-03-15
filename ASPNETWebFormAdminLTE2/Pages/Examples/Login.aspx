@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Login" Language="C#" MasterPageFile="~/Masters/DashboardGeneral.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="ASPNETWebFormAdminLTE2.Pages.Examples.Login" %>
+﻿<%@ Page Title="Login" Language="C#" MasterPageFile="~/Masters/DashboardGeneral.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="ASPNETWebFormAdminLTE2.ASPNETWebFormAdminLTE2.Services.Pages.Examples.Login" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 	<!-- iCheck -->

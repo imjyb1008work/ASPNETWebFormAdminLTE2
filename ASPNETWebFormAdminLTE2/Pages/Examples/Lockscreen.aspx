@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Lockscreen" Language="C#" MasterPageFile="~/Masters/DashboardGeneral.Master" AutoEventWireup="true" CodeBehind="Lockscreen.aspx.cs" Inherits="ASPNETWebFormAdminLTE2.Pages.Examples.Lockscreen" %>
+﻿<%@ Page Title="Lockscreen" Language="C#" MasterPageFile="~/Masters/DashboardGeneral.Master" AutoEventWireup="true" CodeBehind="Lockscreen.aspx.cs" Inherits="ASPNETWebFormAdminLTE2.ASPNETWebFormAdminLTE2.Services.Pages.Examples.Lockscreen" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
